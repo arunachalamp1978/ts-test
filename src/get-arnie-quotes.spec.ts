@@ -58,7 +58,7 @@ describe(__filename, () => {
     it('should throw exception when receiving response invalid body json', async () => {
       spyHttpGet.mockResolvedValue({
         status: 200,
-        body: 'Arun is the best'
+        body: 'test'
       })
       await expect(getArnieQuotes(['http://www.smokeballdev.com/arnie0']))
         .rejects.toMatchObject({
