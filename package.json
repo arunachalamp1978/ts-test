@@ -1,0 +1,19 @@
+{
+  "name": "@loopcruitment/ts-test",
+  "version": "2.0.2",
+  "description": "",
+  "main": "./index.js",
+  "author": "Smokeball Development Team",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.0.0"
+  }
+}
